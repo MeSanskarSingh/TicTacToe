@@ -21,7 +21,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: Fredoka One;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
 }
 
 .gameboard {
@@ -65,7 +70,10 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
-    font-family: JetBrains Mono NL;
+    font-family: "JetBrains Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 12px;
 }
 
@@ -96,7 +104,11 @@ body {
     border-radius: 30px;
     color: whitesmoke;
     border: none;
-    font-family: Fredoka One;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0px 2px gray;
@@ -126,7 +138,11 @@ body {
 }
 
 .gamestopped h1 {
-    font-family: Fredoka One;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
     font-size: 50px;
     color: rgb(244, 92, 72);
     -webkit-text-stroke: 1.5px whitesmoke;
@@ -143,7 +159,11 @@ body {
     border-radius: 30px;
     color: whitesmoke;
     border: none;
-    font-family: Fredoka One;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0px 2px gray;
