@@ -19,7 +19,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: Fredoka One;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .formout {
@@ -46,7 +50,11 @@ p {
     margin-bottom: 20px;
     border-radius: 30px;
     padding-left: 15px;
-    font-family: Fredoka One;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
     font-size: 17px;
     color: rgb(50, 50, 50);
     border: 2px solid white;
@@ -67,7 +75,11 @@ button {
     border-radius: 30px;
     color: whitesmoke;
     border: none;
-    font-family: Fredoka One;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0px 2px gray;
