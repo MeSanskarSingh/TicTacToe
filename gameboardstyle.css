@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#turn {
+    margin-bottom: 50px;
+    color: rgb(224, 224, 224);
+    font-stretch: extra-expanded;
+    display: inline-block;
+    font-size: 22px;
+    background-color: rgb(41, 41, 41);
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+body {
+    background: linear-gradient(to bottom right, #333399 11%, #ff3300 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Fredoka One;
+}
+
+.gameboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+.vr {
+    width: 6px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hr {
+    width: 462px;
+    height: 6px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gameboardrow {
+    display: flex;
+    flex-direction: row;
+}
+
+#subscript {
+    color: whitesmoke;
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: JetBrains Mono NL;
+    font-size: 12px;
+}
+
+.scoreboard {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+}
+
+.score {
+    background-color: white;
+    height: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.button {
+    height: 40px;
+    width: 220px;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #0e5dad;
+    border-radius: 30px;
+    color: whitesmoke;
+    border: none;
+    font-family: Fredoka One;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px gray;
+}
+
+.button:hover {
+    background-color: white;
+    color: #0e5dad;
+    border: 2px solid #0e5dad;
+}
+
+.button:active {
+    transform: translateY(2px);
+}
+
+.gamestopped {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.666);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    display: none;
+}
+
+.gamestopped h1 {
+    font-family: Fredoka One;
+    font-size: 50px;
+    color: rgb(244, 92, 72);
+    -webkit-text-stroke: 1.5px whitesmoke;
+}
+
+.gamestopped button {
+    height: 40px;
+    width: 220px;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #0e5dad;
+    border-radius: 30px;
+    color: whitesmoke;
+    border: none;
+    font-family: Fredoka One;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px gray;
+}
+
+.gamestopped button:hover {
+    background-color: white;
+    color: #0e5dad;
+    border: 2px solid #0e5dad;
+}
+
+.gamestopped button:active {
+    transform: translateY(2px);
+}
+
+.box:hover {
+    background-color: #fbad9a67;
+    transition-duration: 0.7s;
+    border-radius: 15px;
+}
